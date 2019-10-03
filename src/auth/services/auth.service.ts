@@ -32,3 +32,4 @@ export class AuthService {
     return { token: await this.jwtService.sign(payload) };
   }
 }
+//
